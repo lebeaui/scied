@@ -1,0 +1,94 @@
+
+name = Science Ed
+description = Fusion UNI sub-theme.
+base theme = fusion_uni
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/scied-style.css
+
+regions[sidebar_first] = sidebar first
+regions[sidebar_last] = sidebar last
+regions[header_top] = header top
+regions[toolbar] = toolbar
+regions[primary_navigation] = primary navigation
+regions[secondary_navigation] = secondary navigation
+regions[preface_top] = preface top
+regions[preface_middle] = preface middle
+regions[preface_bottom] = preface bottom
+regions[content_top] = content top
+regions[content] = content
+regions[content_bottom] = content bottom
+regions[postscript_top] = postscript top
+regions[postscript_bottom] = postscript bottom
+regions[footer] = footer
+regions[lowerfooter] = lower footer
+regions[node_top] = node top
+regions[node_bottom] = node bottom
+
+features[] = logo
+features[] = name
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+
+; Default theme settings
+settings[theme_grid] = grid16-960
+settings[theme_grid_options][] = grid16-960
+settings[theme_grid_options][] = grid16-fluid
+settings[fluid_grid_width] = fluid-100
+settings[theme_font_size] = font-size-12
+settings[sidebar_layout] = sidebars-split
+settings[sidebar_first_width] = 4
+settings[sidebar_last_width] = 4
+
+; Inherit Skinr styles from Fusion Core
+skinr[options][inherit_skins] = true
+
+; Disable 12 column grid block widths inherited from fusion_core
+skinr[grid12-width] =
+
+; Skinr Styles for Horizontal Menus
+skinr[menu-styles][title] = UNI Menu Styles
+skinr[menu-styles][type] = radios
+skinr[menu-styles][description] = Only apply these to <strong>Menu-Blocks</strong> within <strong>Primary Navigation</strong>, <strong>Secondary Navigation</strong>, or <strong>Sidebar-First</strong> regions. None is "default".
+skinr[menu-styles][features][] = block
+skinr[menu-styles][options][1][label] = <span class="preview-text">Default-Silver <span class="preview-icon" id="fusion-uni-silver"></span></span>
+skinr[menu-styles][options][1][class] = silver
+skinr[menu-styles][options][2][label] = <span class="preview-text">Plain <span class="preview-icon" id="fusion-uni-plain"></span></span>
+skinr[menu-styles][options][2][class] = plain
+skinr[menu-styles][options][3][label] = <span class="preview-text">Silverback <span class="preview-icon" id="fusion-uni-silverback"></span></span>
+skinr[menu-styles][options][3][class] = silverback
+skinr[menu-styles][options][4][label] = <span class="preview-text">Silverback Gold <span class="preview-icon" id="fusion-uni-silverback-gold"></span></span>
+skinr[menu-styles][options][4][class] = silverback-gold
+skinr[menu-styles][options][5][label] = <span class="preview-text">Darkness <span class="preview-icon" id="fusion-uni-darkness"></span></span>
+skinr[menu-styles][options][5][class] = darkness
+
+; Skinr Styles for Blocks
+skinr[block-styles][title] = UNI Block Styles
+skinr[block-styles][type] = radios
+skinr[block-styles][description] = Many different block styles to choose from. Hover over the preview-icon to preview.
+skinr[block-styles][features][] = block
+skinr[block-styles][features][] = panels_pane
+skinr[block-styles][features][] = node
+skinr[block-styles][options][1][label] = <span class="preview-text">Yellow Header <span class="preview-icon" id="fusion-uni-yellow-header"></span></span>
+skinr[block-styles][options][1][class] = yellow-header
+skinr[block-styles][options][2][label] = <span class="preview-text">Grey Box with Rounded Corners <span class="preview-icon" id="fusion-uni-rounded-corner-grey-box"></span></span>
+skinr[block-styles][options][2][class] = rounded-corner-grey-box
+skinr[block-styles][options][3][label] = <span class="preview-text">Purple Box with Rounded Corners <span class="preview-icon" id="fusion-uni-rounded-corner-purple-box"></span></span>
+skinr[block-styles][options][3][class] = rounded-corner-purple-box
+skinr[block-styles][options][4][label] = <span class="preview-text">Yellow Box with Rounded Corners <span class="preview-icon" id="fusion-uni-rounded-corner-yellow-box"></span></span>
+skinr[block-styles][options][4][class] = rounded-corner-yellow-box
+skinr[block-styles][options][5][label] = <span class="preview-text">Purple Top Border & Grey Bg <span class="preview-icon" id="fusion-uni-purple-top-border"></span></span>
+skinr[block-styles][options][5][class] = purple-top-border
+skinr[block-styles][options][6][label] = <span class="preview-text">Grey Underline <span class="preview-icon" id="fusion-uni-grey-underline"></span></span>
+skinr[block-styles][options][6][class] = grey-underline
+
+; Skinr Styles for Views
+skinr[view-styles][title] = UNI Views Styles
+skinr[view-styles][type] = radios
+skinr[view-styles][description] = Many different views styles to choose from. hover over the preview-icon to preview.
+skinr[view-styles][features][] = panels_pane
+skinr[view-styles][features][] = views_view
+skinr[view-styles][options][1][label] = Grey Box with Rounded Corners
+skinr[view-styles][options][1][class] = rounded-corner-grey-box-view
