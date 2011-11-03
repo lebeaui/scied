@@ -308,4 +308,19 @@ p {
 #block-block-1 {
 	font-size: 11px;
 	line-height: 1.4;
+	margin-bottom: 1em;
 }
+
+/* Footer Buttons */
+#block-block-6 {
+	margin-top: 20px;
+}
+
+#block-block-6 .inner {
+	margin: 0;
+}
+
+#block-block-6 img {
+	padding: 0 7px 0 0;
+}
+
