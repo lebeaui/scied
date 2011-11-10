@@ -116,6 +116,10 @@ p {
 	background-color: #F4F4F4;
 }
 
+#content-group #content-inner {
+	margin-top: 10px;
+}
+
 
 /* ---------- Homepage ------ */
 
@@ -150,7 +154,7 @@ p {
 	margin-left: -10px;
 }
 
-/* ---- announcements ---- */
+/* ---- announcements and quick links ---- */
 
 .front #block-block-2 {
 
